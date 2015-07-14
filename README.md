@@ -16,9 +16,14 @@ isotopes and the necessary code to produce the compositional diagrams in Figures
 
 - [data](https://github.com/srmulcahy/2015-ickert-g3/tree/master/data): raw data used in analysis
     - **feldspar.csv**: feldspar weight% oxides and formulas
+    - **titanite.csv**: titanite weight% oxides and formulas
     - **mds-feldspar.csv**: feldspar compositional data adjusted for mds
     - **pb-feldspar.csv**: median pb-isotope compositions
-    - **titanite.csv**: titanite weight% oxides and formulas
+
+- [figures](https://github.com/srmulcahy/2015-ickert-g3/tree/master/figures): pdf plots from r scripts
+    - **fsp-ternary.pdf**: Plot of ternary feldspar compositions in Figure 4
+    - **ttn-ternary.pdf**: Plot of ternary titanite compositions in Figure 4
+    - **mds-plot.pdf**: MDS diagram in Figure 5
 
 ## R Packages
 
