@@ -38,3 +38,7 @@ Analysis. Theory and Applications, pp. 341-355, John Wiley & Sons, Chichester (U
 [RColorBrewer](http://cran.r-project.org/web/packages/RColorBrewer/index.html) Neuwirth, E., 2014, RColorBrewer: ColorBrewer Palettes. R package version 1.1-2. http://CRAN.R-project.org/package=RColorBrewer
 
 [scales](http://cran.r-project.org/web/packages/scales/index.html) Wickham, H., 2015, scales: Scale Functions for Visualization. R package version 0.2.5. http://CRAN.R-project.org/package=scales
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
