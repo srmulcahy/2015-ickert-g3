@@ -2,7 +2,10 @@
 
 *Ryan B. Ickert, Sean R. Mulcahy, Courtney J. Sprain, Jessica F. Banaszak, Paul R. Renne*
 
-Manuscript accepted for publication in Geochemistry, Geophysics, Geosystems.
+[DOI: 10.1002/2015GC005898](http://doi.org/10.1002/2015GC005898)
+
+Manuscript _In Press_ in Geochemistry, Geophysics, Geosystems.
+
 This repository contains electron probe microanalysis (EPMA) data and median Pb
 isotopes and the necessary code to produce the compositional diagrams in Figures
 4 and 5 of the manuscript.
