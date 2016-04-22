@@ -4,6 +4,8 @@
 
 *Ryan B. Ickert, Sean R. Mulcahy, Courtney J. Sprain, Jessica F. Banaszak, Paul R. Renne*
 
+[doi:10.1002/2015GC005898](http://doi.org/10.1002/2015GC005898)
+
 ## Summary
 This repository contains electron probe microanalysis (EPMA) data and median Pb
 isotopes and the necessary code to produce the compositional diagrams in Figures
