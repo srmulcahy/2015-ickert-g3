@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>2015-ickert-g3 by srmulcahy</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>2015-ickert-g3</h1>
+        <p>Data and analysis for Ikckert et al., 2015</p>
+
+        <p class="view"><a href="https://github.com/srmulcahy/2015-ickert-g3">View the Project on GitHub <small>srmulcahy/2015-ickert-g3</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/srmulcahy/2015-ickert-g3/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/srmulcahy/2015-ickert-g3/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/srmulcahy/2015-ickert-g3">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="ickert-et-al-2015" class="anchor" href="#ickert-et-al-2015" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ickert et al., 2015</h1>
+
+<p><strong>Chemical and Pb-isotope composition of phenocrysts from bentonites constrain the chronostratigraphy around the Cretaceous-Paleogene boundary in the Hell Creek region, Montana</strong></p>
+
+<p><em>Ryan B. Ickert, Sean R. Mulcahy, Courtney J. Sprain, Jessica F. Banaszak, Paul R. Renne</em></p>
+
+<p><a href="http://doi.org/10.1002/2015GC005898">doi:10.1002/2015GC005898</a></p>
+
+<h2>
+<a id="summary" class="anchor" href="#summary" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Summary</h2>
+
+<p>This repository contains electron probe microanalysis (EPMA) data and median Pb
+isotopes and the necessary code to produce the compositional diagrams in Figures
+4 and 5 of the manuscript.</p>
+
+<p><strong>Cite as:</strong></p>
+
+<p>Ickert, R. B., S. R. Mulcahy, C. J. Sprain, J. F. Banaszak, and P. R. Renne (2015), Chemical and Pb isotope composition of phenocrysts from bentonites constrains the chronostratigraphy around the Cretaceous-Paleogene boundary in the Hell Creek region, Montana, Geochem. Geophys. Geosyst., 16, 2743–2761, <a href="http://doi.org/10.1002/2015GC005898">doi:10.1002/2015GC005898</a>. </p>
+
+<h2>
+<a id="project-folders" class="anchor" href="#project-folders" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Folders</h2>
+
+<ul>
+<li>
+<p><a href="https://github.com/srmulcahy/2015-ickert-g3/tree/master/code">code</a>: r scripts for generating plots</p>
+
+<ul>
+<li>
+<strong>fsp-ternary.md</strong>: Plot ternary feldspar compositions in Figure 4</li>
+<li>
+<strong>ttn-ternary.md</strong>: Plot ternary titanite compositions in Figure 4</li>
+<li>
+<strong>mds-plot.md</strong>: Plot MDS diagram in Figure 5</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/srmulcahy/2015-ickert-g3/tree/master/data">data</a>: raw data used in analysis</p>
+
+<ul>
+<li>
+<strong>feldspar.csv</strong>: feldspar weight% oxides and formulas</li>
+<li>
+<strong>titanite.csv</strong>: titanite weight% oxides and formulas</li>
+<li>
+<strong>mds-feldspar.csv</strong>: feldspar compositional data adjusted for mds</li>
+<li>
+<strong>pb-feldspar.csv</strong>: median pb-isotope compositions</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/srmulcahy/2015-ickert-g3/tree/master/figures">figures</a>: pdf plots from r scripts</p>
+
+<ul>
+<li>
+<strong>fsp-ternary.pdf</strong>: Plot of ternary feldspar compositions in Figure 4</li>
+<li>
+<strong>ttn-ternary.pdf</strong>: Plot of ternary titanite compositions in Figure 4</li>
+<li>
+<strong>mds-plot.pdf</strong>: MDS diagram in Figure 5</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="r-packages" class="anchor" href="#r-packages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>R Packages</h2>
+
+<p><a href="http://cran.r-project.org/web/packages/compositions/index.html">compositions</a> van den Boogaart, K.G., Tolosana, R., and Bren, M., 2014, compositions: Compositional Data Analysis. R package version 1.40-1. <a href="http://CRAN.R-project.org/package=compositions">http://CRAN.R-project.org/package=compositions</a></p>
+
+<p><a href="http://cran.r-project.org/web/packages/plyr/index.html">plyr</a> Wickham, H., 2011, The Split-Apply-Combine Strategy for Data Analysis. Journal of Statistical Software, 40(1), 1-29.</p>
+
+<p><a href="http://cran.r-project.org/web/packages/robCompositions/index.html">robCompositions</a> Templ ,M., Hron,K., and Filzmoser, P., 2011, robCompositions: an R-package for robust statistical
+analysis of compositional data. In V. Pawlowsky-Glahn and A. Buccianti, editors, Compositional Data
+Analysis. Theory and Applications, pp. 341-355, John Wiley &amp; Sons, Chichester (UK)</p>
+
+<p><a href="http://cran.r-project.org/web/packages/RColorBrewer/index.html">RColorBrewer</a> Neuwirth, E., 2014, RColorBrewer: ColorBrewer Palettes. R package version 1.1-2. <a href="http://CRAN.R-project.org/package=RColorBrewer">http://CRAN.R-project.org/package=RColorBrewer</a></p>
+
+<p><a href="http://cran.r-project.org/web/packages/scales/index.html">scales</a> Wickham, H., 2015, scales: Scale Functions for Visualization. R package version 0.2.5. <a href="http://CRAN.R-project.org/package=scales">http://CRAN.R-project.org/package=scales</a></p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p><a href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/3.0/88x31.png"></a><br>This work is
+licensed under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution
+3.0 Unported License</a>.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/srmulcahy">srmulcahy</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
