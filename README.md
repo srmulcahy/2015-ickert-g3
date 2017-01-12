@@ -7,6 +7,7 @@
 [doi:10.1002/2015GC005898](http://doi.org/10.1002/2015GC005898)
 
 ## Summary
+
 This repository contains electron probe microanalysis (EPMA) data and median Pb
 isotopes and the necessary code to produce the compositional diagrams in Figures
 4 and 5 of the manuscript.
@@ -15,7 +16,7 @@ isotopes and the necessary code to produce the compositional diagrams in Figures
 
 Ickert, R. B., S. R. Mulcahy, C. J. Sprain, J. F. Banaszak, and P. R. Renne (2015), Chemical and Pb isotope composition of phenocrysts from bentonites constrains the chronostratigraphy around the Cretaceous-Paleogene boundary in the Hell Creek region, Montana, Geochem. Geophys. Geosyst., 16, 2743–2761, [doi:10.1002/2015GC005898](http://doi.org/10.1002/2015GC005898).
 
-Code and data set archived on Zenodo [![DOI](https://zenodo.org/badge/39016356.svg)](https://zenodo.org/badge/latestdoi/39016356)
+Code and data set archived on Zenodo: [![DOI](https://zenodo.org/badge/39016356.svg)](https://zenodo.org/badge/latestdoi/39016356)
 
 ## Project Folders
 
